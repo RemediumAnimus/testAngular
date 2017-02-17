@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-bootstrap-calendar": "^0.27.5",
+    "angular-ui-bootstrap": "^2.4.0",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "*",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "*",
+    "gulp-middleware": "^0.1.0",
+    "gulp-plumber": "*",
+    "gulp-rigger": "*",
+    "gulp-sass": "*",
+    "gulp-stylus": "^2.5.0",
+    "gulp-watch": "*",
+    "moment": "^2.17.1",
+    "node-sass": "*",
+    "rimraf": "*",
+    "socket-io": "*",
+    "nodemon": "*"
+  },
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-headerfooter": "*",
+    "gulp-jade": "^1.1.0",
+    "gulp-nodemon": "^2.2.1"
+  }
+}

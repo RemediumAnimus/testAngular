@@ -1,0 +1,21 @@
+<div class="n-info">
+    <h2>INFO</h2>
+    <div class="n-field">
+        <div class="n-field__name">
+            Name:
+        </div>
+        <div class="n-field__val">
+            {{vm.storage.items.name}}
+        </div>
+    </div>
+    <div class="n-field">
+        <div class="n-field__name">
+            Flags:
+        </div>
+        <div class="n-field__val">
+            <div ng-repeat="path in vm.storage.items.paths track by $index" class="n-img">
+                <img src="{{path}}" alt="">
+            </div>
+        </div>
+    </div>
+</div>

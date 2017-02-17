@@ -1,0 +1,21 @@
+<div class="n-sort">
+    <span>Sort:</span>
+    <label for=""><input type="checkbox" ng-model="vm.sort.ascending"><i></i></label>
+</div>
+<div class="n-sort">
+    <span>TxtFilter:</span>
+    <input type="text" ng-model="searchText">
+</div>
+
+<ul class="n-items list" ng-model="storage" ui-sortable="sortableOptions">
+    <li ng-repeat="item in storage | orderBy:'name':vm.sort.ascending | filter:searchText">
+        <div app-item
+             class="n-item"
+             item="item"
+             is-in-first-road="true"
+             is-first-item={{$first}}
+        >
+        </div>
+    </li>
+
+</ul>

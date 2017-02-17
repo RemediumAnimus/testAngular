@@ -1,0 +1,19 @@
+<div class="n-sort">
+    <span>Filters:</span>
+    <div ng-repeat="filter in vm.filters" class="n-sort__checks">
+        <label for="" class="{{filter.className}}">
+            <input type="checkbox" name="selectedFilters[]" value="filter.checked" ng-model="filter.checked" ng-change="vm.selectedFilter()"><i></i>
+        </label>
+    </div>
+</div>
+<ul class="n-items list" ng-model="storage" ui-sortable="sortableOptions">
+    <li ng-repeat="item in storage | filter: vm.checkboxFilter">
+        <div app-item
+             class="n-item"
+             item="item"
+             is-first-item={{$first}}
+        >
+        </div>
+    </li>
+
+</ul>

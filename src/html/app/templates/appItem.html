@@ -1,0 +1,8 @@
+<input type="radio" name="item" ng-click="vm.change()" ng-checked='isInFirstRoad ? {{isFirstItem}} : false' id="{{$id}}">
+
+<label class="n-item__wrap" for="{{$id}}">
+    <div class="n-val">{{item.name}}</div>
+    <div ng-repeat="path in item.paths track by $index" class="n-val">
+        <img src="{{path}}" alt="">
+    </div>
+</label>

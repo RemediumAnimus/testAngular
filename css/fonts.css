@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Scada-Regular';
+  src: url("../fonts/Scada-Regular.eot");
+  src: url("../fonts/Scada-Regular.woff2") format("woff2"), url("../fonts/Scada-Regular.woff") format("woff"), url("../fonts/Sca../fonts/da-Regular.ttf") format("truetype"), url("../fonts/Scada-Regular.svg#Scada-Regular") format("svg"), url("../fonts/Scada-Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Scada-Bold';
+  src: url("../fonts/Scada-Bold.eot");
+  src: url("../fonts/Scada-Bold.woff2") format("woff2"), url("../fonts/Scada-Bold.woff") format("woff"), url("../fonts/Scada-Bold.ttf") format("truetype"), url("../fonts/Scada-Bold.svg#Scada-Bold") format("svg"), url("../fonts/Scada-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype"), url("../fonts/Roboto-Thin.svg#Roboto-Thin") format("svg"), url("../fonts/Roboto-Thin_1.eot"), url("../fonts/Roboto-Thin_1.woff2") format("woff2"), url("../fonts/Roboto-Thin_1.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-light';
+  src: url("../fonts/roboto-light.woff") format("woff"), url("../fonts/Roboto-Thin.ttf") format("truetype"), url("../fonts/roboto-light.svg#Roboto-Thin") format("svg"), url("../fonts/roboto-light.eot"), url("../fonts/roboto-light.woff2") format("woff2"), url("../fonts/roboto-light.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg"), url("../fonts/Roboto-Regular_1.eot"), url("../fonts/Roboto-Regular_1.woff2") format("woff2"), url("../fonts/Roboto-Regular_1.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg#Roboto-Medium") format("svg"), url("../fonts/Roboto -Medium_1.eot"), url("../fonts/Roboto-Medium_1.woff2") format("woff2"), url("../fonts/Roboto-Medium_1.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-B old.svg#Roboto-Bold") format("svg"), url("../fonts/Roboto-Bold_1.eot"), url("../fonts/Roboto-Bold_1.woff2") format("woff2"), url("../fonts/Roboto-Bold_1.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PTF75F';
+  src: url("../fonts/PTF75F.eot");
+  src: url("../fonts/PTF75F.woff2") format("woff2"), url("../fonts/PTF75F.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSerif-Bold.woff") format("woff"), url("../fonts/PTSerif-Bold.ttf") format("truetype"), url("../fonts/PTSerif-Bold.svg#PTSerif-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PTF55F';
+  src: url("../fonts/PTF55F.eot");
+  src: url("../fonts/PTF55F.woff2") format("woff2"), url("../fonts/PTF55F.eot? #iefix") format("embedded-opentype"), url("../fonts/PTSerif-Regular.woff") format("woff"), url("../fonts/PTSerif-Regular.ttf") format("truetype"), url("../fonts/PTSerif-Regular.svg#PTSerif-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }

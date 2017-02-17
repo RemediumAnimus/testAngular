@@ -1,0 +1,110 @@
+@import "variables";
+@font-face {
+  font-family: 'Scada-Regular';
+  src: url('#{$font-path}/Scada-Regular.eot');
+  src: url('#{$font-path}/Scada-Regular.woff2') format('woff2'),
+  url('#{$font-path}/Scada-Regular.woff') format('woff'),
+  url('#{$font-path}/Sca#{$font-path}/da-Regular.ttf') format('truetype'),
+  url('#{$font-path}/Scada-Regular.svg#Scada-Regular') format('svg'),
+  url('#{$font-path}/Scada-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Scada-Bold';
+  src: url('#{$font-path}/Scada-Bold.eot');
+  src: url('#{$font-path}/Scada-Bold.woff2') format('woff2'),
+  url('#{$font-path}/Scada-Bold.woff') format('woff'),
+  url('#{$font-path}/Scada-Bold.ttf') format('truetype'),
+  url('#{$font-path}/Scada-Bold.svg#Scada-Bold') format('svg'),
+  url('#{$font-path}/Scada-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('#{$font-path}/Roboto-Thin.woff') format('woff'),
+  url('#{$font-path}/Roboto-Thin.ttf') format('truetype'),
+  url('#{$font-path}/Roboto-Thin.svg#Roboto-Thin') format('svg'),
+  url('#{$font-path}/Roboto-Thin_1.eot'),
+  url('#{$font-path}/Roboto-Thin_1.woff2') format('woff2'),
+  url('#{$font-path}/Roboto-Thin_1.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-light';
+  src: url('#{$font-path}/roboto-light.woff') format('woff'),
+  url('#{$font-path}/Roboto-Thin.ttf') format('truetype'),
+  url('#{$font-path}/roboto-light.svg#Roboto-Thin') format('svg'),
+  url('#{$font-path}/roboto-light.eot'),
+  url('#{$font-path}/roboto-light.woff2') format('woff2'),
+  url('#{$font-path}/roboto-light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('#{$font-path}/Roboto-Regular.woff') format('woff'),
+  url('#{$font-path}/Roboto-Regular.ttf') format('truetype'),
+  url('#{$font-path}/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+  url('#{$font-path}/Roboto-Regular_1.eot'),
+  url('#{$font-path}/Roboto-Regular_1.woff2') format('woff2'),
+  url('#{$font-path}/Roboto-Regular_1.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('#{$font-path}/Roboto-Medium.woff') format('woff'),
+  url('#{$font-path}/Roboto-Medium.ttf') format('truetype'),
+  url('#{$font-path}/Roboto-Medium.svg#Roboto-Medium') format('svg'),
+  url('#{$font-path}/Roboto -Medium_1.eot'),
+  url('#{$font-path}/Roboto-Medium_1.woff2') format('woff2'),
+  url('#{$font-path}/Roboto-Medium_1.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('#{$font-path}/Roboto-Bold.woff') format('woff'),
+  url('#{$font-path}/Roboto-Bold.ttf') format('truetype'),
+  url('#{$font-path}/Roboto-B old.svg#Roboto-Bold') format('svg'),
+  url('#{$font-path}/Roboto-Bold_1.eot'),
+  url('#{$font-path}/Roboto-Bold_1.woff2') format('woff2'),
+  url('#{$font-path}/Roboto-Bold_1.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PTF75F';
+  src: url('#{$font-path}/PTF75F.eot');
+  src: url('#{$font-path}/PTF75F.woff2') format('woff2'),
+  url('#{$font-path}/PTF75F.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/PTSerif-Bold.woff') format('woff'),
+  url('#{$font-path}/PTSerif-Bold.ttf') format('truetype'),
+  url('#{$font-path}/PTSerif-Bold.svg#PTSerif-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PTF55F';
+  src: url('#{$font-path}/PTF55F.eot');
+  src: url('#{$font-path}/PTF55F.woff2') format('woff2'),
+  url('#{$font-path}/PTF55F.eot? #iefix') format('embedded-opentype'),
+  url('#{$font-path}/PTSerif-Regular.woff') format('woff'),
+  url('#{$font-path}/PTSerif-Regular.ttf') format('truetype'),
+  url('#{$font-path}/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
